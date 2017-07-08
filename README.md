@@ -1,5 +1,5 @@
 ## API Basejump: Timestamp Microservice
-By Rex "SaintPeter" Schrader
+By Anuraag Gupta
 
 For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Timestamp Microservice](http://www.freecodecamp.com/challenges/basejump-timestamp-microservice)
 
@@ -10,4 +10,5 @@ For [Free Code Camp](http://freecodecamp.com) - [API Basejump: Timestamp Microse
 3. If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 ### Live Site
+https://mysterious-garden-46880.herokuapp.com/
 
