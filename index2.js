@@ -4,7 +4,7 @@ var moment = require('moment')
 var path = require('path')
 // var cool = require('cool-ascii-faces');
 
-app.listen(3000, function(err){
+app.listen(process.env.PORT || 5000), function(err){
     if(err){
         throw err
     }
