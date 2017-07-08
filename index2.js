@@ -2,6 +2,7 @@ var express = require('express')
 var app = express()
 var moment = require('moment')
 var path = require('path')
+var cool = require('cool-ascii-faces');
 
 app.listen(3000, function(err){
     if(err){
@@ -45,3 +46,17 @@ app.get("/:datestring", function(req, res){
     }
 
 })
+
+app.get('/cool', function(request, response) {
+  response.send(cool());
+});
+
+app.get('/times', function(request, response) {
+    var result = ''
+    var times = process.env.TIMES || 5
+    for (i=0; i < times; i++)
+      result += i + ' ';
+  response.send(result);
+});
+
+
